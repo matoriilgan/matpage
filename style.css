@@ -1,0 +1,57 @@
+.btn-primary {
+  background: #ff9900cc;
+  border: 0px;
+  padding: 10px 35px 10px 35px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background: #ff9900;
+  border: 0px;
+}
+.btn-secondary {
+  background: none;
+  border: 1px solid #bcd0e5;
+  padding: 10px 35px 10px 35px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #173a56;
+}
+.btn-secondary:hover {
+  background: none;
+  border: 1px solid #8897a7;
+  color: #173a56;
+}
+.heromat h1 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  color: #000922;
+}
+.heromat p {
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+  color: #000922;
+}
+.navbar-nav .nav-link {
+  color: #000922;
+  font-size: 18px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 990px) {
+  .btn-primary,
+  .btn-secondary {
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .heromat h1 {
+    text-align: center;
+  }
+  .heromat p {
+    text-align: center;
+  }
+  .heromat img {
+    margin-top: 20px;
+  }
+}
